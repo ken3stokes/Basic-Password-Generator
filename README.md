@@ -1,61 +1,42 @@
-# PythonProjects
-# Lottery Number Generator with GUI
+# Complex Passphrase Generator
 
-A simple Python program that generates lottery numbers for Pick Three, Pick Four, and Powerball with a graphical user interface (GUI) using Tkinter.
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)
 
-## Table of Contents
+A Python application that generates complex passphrases and allows users to encrypt them using different encryption algorithms. The generated passphrases are secure and can be used as strong passwords for various applications.
 
-- [Description](#description)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Requirements
 
-## Description
-
-This project provides a graphical interface to generate lottery numbers for different lottery types - Pick Three, Pick Four, and Powerball. Users can choose the type of lottery and click the "Generate Numbers" button to get random lottery numbers.
+- Python 3.x
+- cryptography (Install using `pip install cryptography`)
 
 ## Features
 
-- Generates random lottery numbers for Pick Three, Pick Four, and Powerball.
-- Interactive GUI for easy selection of the lottery type.
-- Provides immediate feedback with the generated numbers.
+- Generate a complex passphrase between 16 and 32 characters.
+- Option to add special characters or capitalize characters in the passphrase.
+- Choose between "Fernet" and "AES" encryption algorithms for securing the passphrase.
+- Display the encrypted passphrase and the encryption key.
 
-## Getting Started
+## How to Use
 
-To run the lottery number generator on your local machine, follow these steps:
-
-1. Clone the repository:
+1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/lottery-number-generator.git
-cd lottery-number-generator
-# If using pip
-pip install tkinter
+   git clone https://github.com/your-username/complex-passphrase-generator.git
 
-## Usage
-1. Fork the repository.
-2. Create a new branch:
-# If using pipenv
-pipenv install
+2. cd complex-passphrase-generator
+3. pip install -r requirements.txt
+4. python passphrase_generator.py
 
-# Run the program:
-python lottery_generator.py
-1. The GUI window will appear, showing three radio buttons to choose the lottery type (Pick Three, Pick Four, or Powerball).
-2. Click on one of the radio buttons to select the lottery type.
-3. Click the "Generate Numbers" button to get the random lottery numbers based on your selection.
-4. The generated numbers will be displayed on the screen.
-
-## Contribution
-
-git checkout -b feature/my-feature
-
-git commit -m "Add my feature"
-
-git push origin feature/my-feature
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
 ## License
+This project is licensed under the MIT License.
 
-Replace `your-username` in the `git clone` command with your GitHub username if you plan to host the code on your own GitHub repository. Remember to update the paths and other details based on your specific project setup. This README template provides an overview of the project, how to set it up, usage instructions, and guidelines for contributing. Customize it further to match your project's needs.
+## Disclaimer
+This application is for educational purposes only and may not be suitable for actual production usage. It's essential to follow best practices and security guidelines when handling passphrases and encryption keys.
+
+Make sure to replace "your-username" in the clone URL with your GitHub username if you decide to create a new repository for this project.
+
+The README provides an overview of the project, requirements, features, usage instructions, contribution guidelines, license, and a disclaimer. You can further customize it as per your specific project needs.
 
