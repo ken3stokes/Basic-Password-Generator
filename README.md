@@ -36,7 +36,5 @@ This project is licensed under the MIT License.
 ## Disclaimer
 This application is for educational purposes only and may not be suitable for actual production usage. It's essential to follow best practices and security guidelines when handling passphrases and encryption keys.
 
-Make sure to replace "your-username" in the clone URL with your GitHub username if you decide to create a new repository for this project.
 
-The README provides an overview of the project, requirements, features, usage instructions, contribution guidelines, license, and a disclaimer. You can further customize it as per your specific project needs.
 
